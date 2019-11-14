@@ -25,7 +25,7 @@ public class NewTest {
 	  ui.intrstsrateinput("28.0");
 	  Thread.sleep(3000);
 	  ui.buttonclinput();
-	  
+	  System.out.println("This to change com ");
   }
   
   @BeforeClass
