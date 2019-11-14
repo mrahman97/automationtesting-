@@ -1,0 +1,10 @@
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Function" parallel="Tests" thread-cout="2">
+<Test name="Login">
+<Parameters name="browser" value="chrome"></Parameters>
+<classes>
+<class name="com.piit.session.amazon.NewTest"></class>
+</classes>
+</Test>
+</suite> 
